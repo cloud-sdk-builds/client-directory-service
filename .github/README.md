@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-directory-service`](https://www.npmjs.com/package/@aws-sdk/client-directory-service/v/3.798.0).
+[`@aws-sdk/client-directory-service`](https://www.npmjs.com/package/@aws-sdk/client-directory-service/v/3.799.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.798.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.799.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-AH6il+Q3eM2MxKSYK6OgFVnxZYrMWZDs5VjuesrJHiBey353XgOhEfu6BsSe+XlX
+sha384-k6zvCKPXFcGpwCLkPx4noikSuzR0/Ar6ur1W28dhol8AuvzNaWzkP59A6y5JZ1mc
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-directory-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.798.0/index.min.mjs"
+            "@aws-sdk/client-directory-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.799.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.798.0/index.min.mjs": "sha384-AH6il+Q3eM2MxKSYK6OgFVnxZYrMWZDs5VjuesrJHiBey353XgOhEfu6BsSe+XlX"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.799.0/index.min.mjs": "sha384-k6zvCKPXFcGpwCLkPx4noikSuzR0/Ar6ur1W28dhol8AuvzNaWzkP59A6y5JZ1mc"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-directory-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.798.0/index.min.mjs"
+                        "@aws-sdk/client-directory-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.799.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.798.0/index.min.mjs": "sha384-AH6il+Q3eM2MxKSYK6OgFVnxZYrMWZDs5VjuesrJHiBey353XgOhEfu6BsSe+XlX"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service@3.799.0/index.min.mjs": "sha384-k6zvCKPXFcGpwCLkPx4noikSuzR0/Ar6ur1W28dhol8AuvzNaWzkP59A6y5JZ1mc"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.798.0`)
+* Always pin to a specific version (`@3.799.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-directory-service/blob/refs/tags/3.798.0/LICENSE
+https://github.com/cloud-sdk-builds/client-directory-service/blob/refs/tags/3.799.0/LICENSE
 ```
 
 ---
